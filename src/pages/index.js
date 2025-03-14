@@ -125,7 +125,7 @@ function Home() {
           </div>
 
           <div className="mt-12 grid grid-cols-3 gap-2 w-fit">
-            {Array.from({ length: 10 }).map((_, i) => (
+            {Array.from({ length: 11 }).map((_, i) => (
               <button
                 key={i}
                 className="w-12 h-12 border border-white rounded flex items-center justify-center"
